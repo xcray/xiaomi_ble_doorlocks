@@ -3,6 +3,8 @@ modified esphome code of xiaomi_lywsd03mmc &amp; xiaomi_ble to support the door 
 
 if your lock is a diffrent brand or model, maybe you need to modify the code further.
 
+copy the directories named xiaomi_ble and xiaomi_zelkova into esphome/esphome/components, the original files under xiaomi_ble will be replaced, so make backup in advance.
+
 configuration:
 ```
 esp32_ble_tracker:
